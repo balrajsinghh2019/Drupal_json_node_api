@@ -1,0 +1,5 @@
+name: 'Json Data'
+type: module
+description: 'A custom module that provides the json data of node when key is present in URL'
+core_version_requirement: ^8 || ^9
+package: 'Custom'

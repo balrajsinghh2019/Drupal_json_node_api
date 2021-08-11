@@ -1,0 +1,7 @@
+json_data_api.jsonrepresentation:
+  path: '/page_json/{sitekey}/{nid}'
+  defaults:
+    _title: ''
+    _controller: '\Drupal\json_data_api\Controller\ApiController::jsonrepresentationData'
+  requirements:
+     _access: 'TRUE'
